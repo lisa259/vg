@@ -1,4 +1,4 @@
-**Video Game Ontology Notebook**
+## Video Game Ontology Notebook
 
 Using the knowledge we obtained from the Knowledge and Data course, we were able
 to create a data visualization application which contains an analysis of a
@@ -9,14 +9,15 @@ Our submitted notebook is saved in such a manner that all the desired outputs
 have been displayed. Do note that an active internet connection is required, and
 the notebook needs to be trusted (File -\> Trust Notebook) in order to display
 the map in section 4. Please follow the guide below in the case you want to
-**run the notebook** yourself:
+**run the notebook** yourself.
 
 For our notebook, we made use of GraphDB repositories and JupyterLab, which runs
 on Python 3. We made use of the python libraries ipython_sparql_pandas, pandas,
 seaborn, matplotlib and folium. Please be sure to have these packages installed
 in order to be able to run the jupyter notebook.
-
-**Installation**
+    
+   
+## Installation
 
 **GraphDB Installation**
 
@@ -66,30 +67,30 @@ installed, if any are missing, run:
 \$ pip install seaborn
 
 \$ pip install matplotlib
-
-**Running our notebook**
+   
+   
+## Running our notebook
 
 1.  Be sure to have Jupyterlab, Python, GraphDB installed
 
 2.  Create a local repository on GraphDB
 
-3.  Import the turtle file into the GraphDB repository:
+3.  Import the turtle file into the GraphDB repository -- VideoGame.ttl .
 
--   VideoGame.ttl
+4.  Open Jupyter from your local terminal.
 
-1.  Open Jupyter from your local terminal.
-
-2.  Have access to our notebook file --
+5.  Have access to our notebook file --
     K&D_Final_Project_Notebook_Group_28.ipnyb .
 
-3.  Make sure all necessary packages are installed with pip. (See above)
+6.  Make sure all necessary packages are installed with pip. (See above)
 
-4.  In the notebook, replace the url endpoint in all queries with your graphDB
+7.  In the notebook, replace the url endpoint in all queries with your graphDB
     endpoint.
 
-5.  Run the cells in the specified order to get all the results.
-
-**Contribution**
+8.  Run the cells in the specified order to get all the results.
+   
+    
+## Contribution
 
 The project is created by Lisa Beek, Taina Aloha, Divabelle Bayuputri, Ashilla
 Fryda Risautami. Please contact us if you have any questions regarding the
